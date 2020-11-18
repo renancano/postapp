@@ -1,13 +1,14 @@
 {
-  "name": "teste",
+  "name": "testeostapp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "star": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Renan Cano",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
