@@ -3,7 +3,7 @@ const Sequelize = require("sequelize");
 //Conexão com o Banco de Dados MySQL
 const sequelize = new Sequelize("sql10377226", "sql10377226", "2uAnWMIIbn", {
 	host: "sql10.freesqldatabase.com",
-	dialect: "mysql2",
+	dialect: "mysql",
 	define: {
 		timestamps: false
 	}
