@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node index.js"
+    "teste": "echo \"Error: no teste specified\" && exit 1"
   },
   "keywords": [],
   "author": "Renan Cano",
