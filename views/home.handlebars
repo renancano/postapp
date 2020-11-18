@@ -1,0 +1,19 @@
+<h1>Lista de Postagens</h1>
+
+
+<form name="form1" action="/busca" method="POST">
+	<span>ID:</span>
+	<input type="text" name="busca">	
+	<button type="submit" action="form1">Buscar</button>
+
+</form>
+
+
+
+
+{{#each posts}}
+	<h3>#{{dataValues.idPostagem}}</h3>
+	<h2>{{dataValues.titulo}}</h2>
+	<p>{{dataValues.conteudo}}</p>
+	<hr>
+{{/each}}
