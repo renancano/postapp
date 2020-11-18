@@ -22,6 +22,11 @@ const Post = require("./models/Post");
 
 //ROTAS
 app.get("/", function(req, res){
+	res.send("Estou no ar");
+})
+
+
+app.get("/home", function(req, res){
 	Post.findAll().then(function(posts){
 		res.render('home', {posts: posts});
 	});
